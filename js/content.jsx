@@ -146,8 +146,8 @@ const LUMI = {
         tag:   { zh: '治理 · 风控', en: 'Governance · Risk' },
         title: { zh: '跨境影像制作中的不确定性管理:单点治理的力量',
                  en: 'Managing uncertainty in cross-border visual production: the power of single-point governance' },
-        deck:  { zh: '基于近年法国、意大利属地拍摄的项目数据,讨论高定影像制作中临场决策与流程留痕的实务张力,提出 SPOC 与 Change Order 框架在跨境环境下的应用。',
-                 en: 'Drawing on recent shoots across France and Italy, the paper examines the practical tension between on-set creative latitude and schedule discipline, and applies the SPOC + Change Order framework to the cross-border context.' },
+        deck:  { zh: '基于近年法国、意大利属地拍摄的项目数据,分析高定影像制作中,临场应变与流程规范之间的实际冲突;并探讨 SPOC 与 Change Order 机制在跨境项目中的具体应用。',
+                 en: 'Drawing on recent shoots in France and Italy, the paper analyses the actual conflict between on-set adaptation and procedural discipline in high-fashion production, and examines how the SPOC and Change Order mechanisms apply to cross-border projects.' },
         read:  { zh: '12 分钟', en: '12 min read' },
         status:{ zh: '已发表', en: 'Published' },
       },
@@ -168,8 +168,8 @@ const LUMI = {
         tag:   { zh: '美学 · 叙事', en: 'Aesthetics · Narrative' },
         title: { zh: '中欧高端品牌叙事的差异:跨文化语境下的视觉翻译',
                  en: 'Differences in Sino-European premium brand narrative: visual translation across cultures' },
-        deck:  { zh: '以 SHIATZY CHEN「舞玉」短片系列为案例,讨论中欧高端品牌在叙事结构、视觉密度与文化引用上的差异,以及跨文化语境下「品牌精神」的可翻译性。',
-                 en: 'Using the Dance of Jade series as a case, the paper examines differences in narrative structure, visual density, and cultural reference between Chinese and European premium brands — and the translatability of brand spirit across contexts.' },
+        deck:  { zh: '以 SHIATZY CHEN「舞玉」短片系列为案例,讨论中欧高端品牌在叙事结构、视觉密度与文化引用上的差异,并探究在跨文化语境中,品牌内核如何实现有效的跨语言转译。',
+                 en: 'Using the Dance of Jade series as a case, the paper examines differences in narrative structure, visual density, and cultural reference between Chinese and European premium brands, and explores how a brand\'s core can be effectively translated across cultural contexts.' },
         read:  { zh: '8 分钟', en: '8 min read' },
         status:{ zh: '即将发表', en: 'Forthcoming' },
       },
@@ -178,12 +178,12 @@ const LUMI = {
       body: {
         zh: [
           '王陈彩霞女士 1990 年在巴黎开设第一间工作室,是法国时尚协会当时唯一的大中华区品牌创办人。她生产的是中式服装,但用的是欧洲高定的工作方式。',
-          '这个样本值得长期回看。它告诉我们:跨文化叙事真正发生在工作方式的层面,符号只是表层。',
+          '这个案例值得长期复盘。它表明:跨文化表达的成立,最终取决于工作方式的磨合,而非单纯的符号转用。',
           '过去二十年,中国高端品牌的国际化大多停在符号上。工作方法、决策习惯、对客户的态度——这些更底下的部分,几乎没有人系统地写过。',
         ],
         en: [
           'Madame Wang Chen Tsai-Hsia opened her first Paris atelier in 1990, at the time the only founder from Greater China admitted to the Chambre Syndicale. She made Chinese clothing — using European haute couture working methods.',
-          'It is a sample worth revisiting. What it tells us: cross-cultural narrative happens at the level of working method. Surface signs are just the surface.',
+          "This case is worth revisiting at length. What it shows: whether cross-cultural expression holds together depends ultimately on the negotiation of working methods, not the transfer of surface signs.",
           "Most premium-brand internationalisation from China over the past two decades has stayed at the level of surface signs. Working method, decision habits, posture toward clients — the deeper layers — almost no one has written about them systematically.",
         ],
       },
@@ -201,8 +201,8 @@ const LUMI = {
       en: 'The Collaborative.',
     },
     intro: {
-      zh: '一份面向全球独立华人创作者的开放名录。共同的工作标准——而非地缘、资历或人脉——是入选的唯一前提。',
-      en: 'An open roster of independent Chinese creators worldwide. Shared working standards — not geography, seniority, or connections — are the sole criterion for admission.',
+      zh: '一份面向全球独立华人创作者的开放名录。共同的工作标准是入选的唯一前提。我们不将地缘、资历或人脉作为考量指标。',
+      en: 'An open roster of independent Chinese creators worldwide. Shared working standards are the sole criterion for admission. Geography, seniority, and connections are not factored in.',
     },
     disciplines: [
       { n: 'I',   en: 'Direction',           cn: '导演',           bodyEn: 'Commercials, brand films, short films, documentary.', bodyZh: '广告、品牌片、短片、纪录片。' },
@@ -366,9 +366,9 @@ const LUMI = {
       en: 'The Lumicome founding team · 2026',
     },
     pillars: [
-      { k: { zh: '问题',     en: 'Problem' }, v: { zh: '中欧两端缺少一种「跨文化创作者」角色,品牌叙事在迁移中持续失真。', en: 'A missing cross-cultural-creator role between China and Europe; premium brand narratives degrade in transit.' } },
-      { k: { zh: '机会',     en: 'Opportunity' }, v: { zh: '中欧高端品牌相互进入的十年,以及全球华人创作者的觉醒——两条曲线交汇。', en: 'A decade of premium-brand exchange between China and Europe, meeting the rise of Chinese creators globally.' } },
-      { k: { zh: '我们的位置', en: 'Our position' }, v: { zh: '不做代理、不做单点服务——做事务所:档案 / 编辑室 / 协作院 / 公约。', en: 'Neither agency nor single-service vendor. An atelier: Archive / Journal / Collaborative / Protocol.' } },
+      { k: { zh: '问题',     en: 'Problem' }, v: { zh: '中欧之间长期缺乏能够深度承接双重文化的创作者,品牌故事在跨国落地时,往往因语境错位而偏离初衷。', en: 'Between China and Europe, there has long been a shortage of creators able to carry both cultures with depth; brand stories tend to drift from their original intent as they cross borders, lost to context.' } },
+      { k: { zh: '机会',     en: 'Opportunity' }, v: { zh: '过去十年,中欧高端品牌正在加速双向进入;与此同时,全球华人创作者群体也在同步成长。两股力量正交汇于此。', en: 'Over the past decade, premium brands in China and Europe have been accelerating their two-way entry; meanwhile, the worldwide community of Chinese creators has been growing in parallel. The two currents are converging.' } },
+      { k: { zh: '我们的位置', en: 'Our position' }, v: { zh: '区别于传统代理或单点服务,我们以"事务所"结构运作 —— 旗下设立档案、编辑室、协作院与公约四个核心板块。', en: 'Distinct from a conventional agency or single-service vendor, we operate as an atelier — organised across four core sections: Archive, Journal, Collaborative, and Protocol.' } },
       { k: { zh: '方向',       en: 'Direction' },       v: { zh: '把分散在全球的华人创作者,组织成一个可以共同协作的网络。', en: 'Organise scattered Chinese creators worldwide into a network that can work together.' } },
     ],
     ctaPress: { zh: 'Press · 媒体报道',          en: 'Press & Recognition' },
@@ -403,8 +403,8 @@ const LUMI = {
       en: 'Read it before anyone else.',
     },
     body: {
-      zh: '每两周一封 Field Notes。涵盖跨境制作流程、属地法务合规、跨文化叙事方法论的研究观察。短篇,可被引用,无营销内容。',
-      en: 'A fortnightly Field Notes — research and observation on cross-border production process, jurisdictional compliance, and cross-cultural narrative method. Brief. Citable. No marketing.',
+      zh: '每两周一封 Field Notes。提供涵盖跨境制作流程、属地法务合规、以及跨文化叙事逻辑的行业观察。短篇,可被引用,无营销内容。',
+      en: 'A fortnightly Field Notes — industry observations covering cross-border production process, jurisdictional compliance, and the practice of cross-cultural narrative. Brief. Citable. No marketing.',
     },
     placeholder: { zh: '邮箱地址', en: 'name@studio.com' },
     cta: { zh: '订阅',   en: 'Subscribe' },
@@ -459,8 +459,8 @@ const LUMI = {
         name:  { zh: 'Dong',                  en: 'Dong' },
         based: { zh: '常驻巴黎 · 15 年',      en: 'Based in Paris · 15 years' },
         bio:   {
-          zh: '资深摄影师,以镜头为棱镜,解构时空的诗意。擅长将理性的技术逻辑与感性的美学直觉融入动态影像,把哲思放进每秒 24 帧。专注高概念、兼具学术价值与市场影响力的视觉项目。',
-          en: 'Senior photographer using the lens as a prism to deconstruct the poetry of time and space. Specialises in infusing rational technical logic with sensual aesthetic intuition into dynamic imagery — placing philosophical nuance into every 24 frames per second. High-concept visual projects with academic value and market impact.',
+          zh: '资深摄影指导,常驻巴黎 15 年。长期深耕高端时装与文化影像领域,擅长在商业诉求与作者表达之间建立精准平衡。',
+          en: 'Senior cinematographer, based in Paris for 15 years. A long practice in high-end fashion and cultural imagery, with a particular ability to find the precise balance between commercial brief and authorial voice.',
         },
         expertise: {
           zh: ['摄影', '视觉叙事', '概念影像', '影片制作', '美学指导'],
@@ -473,8 +473,8 @@ const LUMI = {
         name:  { zh: 'Steve',                  en: 'Steve' },
         based: { zh: '常驻巴黎',               en: 'Based in Paris' },
         bio:   {
-          zh: '常驻巴黎的视觉创作者与新锐摄影师。求学期间深耕视觉艺术与欧洲先锋视觉语言。为时装品牌创作艺术性 campaign 影像,协助文化机构完成纪录级的视觉记录;同时与先锋艺术家合作实验性多媒体作品。在商业与艺术性视觉创作之间搭桥。',
-          en: 'Visual creator and emerging photographer based in Paris. Deeply engaged with visual arts and European avant-garde visual language during studies. Creates artistic campaign imagery for fashion brands and assists cultural institutions in producing documentary-level visual records; collaborates with avant-garde artists on experimental multimedia work. Bridges commercial and artistic visual creation.',
+          zh: '求学期间专注于欧洲先锋视觉语言的研究。除长期为文化机构进行影像记录、与艺术家合作实验项目外,亦频繁受邀为时装品牌拍摄艺术向的品牌战役(Campaign)。',
+          en: "A research focus on European avant-garde visual language during studies. Long-term image-record work for cultural institutions and experimental collaborations with artists; also frequently commissioned for art-leaning brand campaigns in fashion.",
         },
         expertise: {
           zh: ['Campaign 摄影', '艺术指导', '纪录影像', '多媒体艺术', '文化项目'],
