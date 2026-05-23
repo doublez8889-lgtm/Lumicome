@@ -499,45 +499,7 @@ function TeamPage({ lang }) {
       <h1 className={`page-title ${lang === 'zh' ? 'cn' : ''}`}>{L(t.headline, lang)}</h1>
       <p className={`lead ${lang === 'zh' ? 'cn' : ''}`}>{L(t.intro, lang)}</p>
 
-      {/* Founder */}
-      <div className="founder">
-        <div className="plate plate--portrait">
-          <div className="plate-meta">
-            <div className="t"><span>{t.founder.plate.line1}</span><span>{t.founder.plate.tag}</span></div>
-            <div className="b"><span>{t.founder.plate.line2}</span><span>{t.founder.plate.line3}</span></div>
-          </div>
-        </div>
-        <div className="founder-info">
-          <span className={`founder-role ${lang === 'zh' ? 'cn' : ''}`}>{L(t.founder.role, lang)}</span>
-          <h2 className="founder-name">{t.founder.name}</h2>
-          <div className={`founder-sub ${lang === 'zh' ? 'cn' : ''}`}>
-            <span>{L(t.founder.based, lang)}</span>
-            <span>·</span>
-            <span>{L(t.founder.langs, lang)}</span>
-          </div>
-          <div className={`founder-bio ${lang === 'zh' ? 'cn' : ''}`}>
-            {t.founder.bio[lang].map((p, i) => <p key={i}>{p}</p>)}
-          </div>
-          {t.founder.expertise && (
-            <ul className={`expertise-tags ${lang === 'zh' ? 'cn' : ''}`}>
-              {t.founder.expertise[lang].map((x, i) => <li key={i}>{x}</li>)}
-            </ul>
-          )}
-          <div className="founder-links">
-            {t.founder.links.map((l, i) => (
-              <a key={i} className="inline-link" href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel="noopener">
-                {l.label} · <span className={lang === 'zh' ? 'cn' : ''} style={{ color: 'var(--mute)' }}>{L(l.note, lang)}</span> →
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Team members */}
-      <h2 className={`sec-h2 ${lang === 'zh' ? 'cn' : ''}`} style={{ marginTop: 'clamp(80px, 12vh, 140px)', marginBottom: 32 }}>
-        {lang === 'zh' ? '团队结构与在招方向。' : 'Team structure & open roles.'}
-      </h2>
-      <div className="team-grid">
+      <div className="team-grid" style={{ marginTop: 'clamp(48px, 8vh, 80px)' }}>
         {t.members.map((m, i) => (
           <article className="tm-card" key={i}>
             <div className="plate plate--square">

@@ -1752,7 +1752,7 @@ a { color: inherit; text-decoration: none; }
 /* ---------- TEAM grid ---------- */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: clamp(28px, 4vw, 56px);
 }
 .tm-card .plate { margin-bottom: 16px; }

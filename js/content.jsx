@@ -462,33 +462,21 @@ const LUMI = {
       zh: 'Lumicome 由长期在巴黎与上海工作、跨语言协作的创作者组成。我们相信,跨文化项目的最终质量,来自于团队成员各自在两个文化里的真实经历——而非仅靠流程。',
       en: 'Lumicome is built by practitioners with long working experience between Paris and Shanghai. We believe the ultimate quality of a cross-cultural project comes from real lived experience in both cultures, not protocol alone.',
     },
-    founder: {
-      role:    { zh: '创始人 · 创意总监',          en: 'Founder & Creative Director' },
-      name:    'Kairos',
-      based:   { zh: '常驻巴黎 · 十余年',          en: 'Based in Paris for over a decade' },
-      langs:   { zh: '工作语言 · 中文 / 法语 / 英语', en: 'Working languages · Mandarin · French · English' },
-      bio: {
-        zh: [
-          '资深媒体人、时装编辑、造型师、艺术指导与制作总监。Lumicome 运营总监。',
-          '中国传媒大学摄影学士,巴黎大学公共关系硕士。常驻巴黎逾十年。',
-          '微博知名时尚博主与意见领袖,MODEZINE 创办人。',
-        ],
-        en: [
-          'Senior media professional · fashion editor · stylist · art director · production director. Operations director of the company.',
-          'BA in Photography, Communication University of China · MA in Public Relations, University of Paris. Based in Paris for over a decade.',
-          'Renowned fashion blogger and opinion leader on Weibo. Founder of MODEZINE.',
-        ],
-      },
-      expertise: {
-        zh: ['品牌战略', '创意指导', '时装造型', '制作管理', '媒体运营'],
-        en: ['Brand Strategy', 'Creative Direction', 'Fashion Styling', 'Production Management', 'Media Operations'],
-      },
-      links: [
-        { label: 'Email',       href: 'mailto:hello@atelieryf.com', note: { zh: '直接来信',       en: 'Direct line' } },
-      ],
-      plate: { line1: 'FOUNDER · KAIROS', line2: 'Paris × Shanghai', line3: 'MMXV — MMXXVI', tag: '01' },
-    },
     members: [
+      {
+        role:  { zh: '创始人 · 创意总监',         en: 'Founder & Creative Director' },
+        name:  { zh: 'Kairos',                     en: 'Kairos' },
+        based: { zh: '常驻巴黎 · 十余年',          en: 'Based in Paris · over a decade' },
+        bio:   {
+          zh: '资深媒体人、时装编辑、造型师、艺术指导与制作总监。中国传媒大学摄影学士,巴黎大学公共关系硕士。微博知名时尚博主与意见领袖,MODEZINE 创办人。',
+          en: 'Senior media professional · fashion editor · stylist · art director · production director. BA in Photography, Communication University of China; MA in Public Relations, University of Paris. Renowned fashion blogger and opinion leader on Weibo; founder of MODEZINE.',
+        },
+        expertise: {
+          zh: ['品牌战略', '创意指导', '时装造型', '制作管理', '媒体运营'],
+          en: ['Brand Strategy', 'Creative Direction', 'Fashion Styling', 'Production Management', 'Media Operations'],
+        },
+        plate: { line1: 'KAIROS', line2: 'Founder', line3: 'Paris', tag: '01' },
+      },
       {
         role:  { zh: '联合创始人 · 创意策略总监', en: 'Co-founder & Creative Strategist' },
         name:  { zh: 'Bian',                       en: 'Bian' },
