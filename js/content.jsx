@@ -346,7 +346,7 @@ const LUMI = {
     body: {
       zh: [
         '过去十年,我在巴黎和上海之间走。我看到欧洲品牌进入中国时,把品牌叙事交给了不理解他们的代理商;也看到中国品牌走向欧洲时,被本地 PR 公司讲成了「另一个东方风情」。',
-        '渠道有,预算有。一直缺的是一种角色:能同时读懂两种文化的创作者。',
+        '能在两边都讲得清楚的人,一直都不多。',
         '这种角色,一个人完不成。它需要摄影师、导演、美术、属地制片;每个人长期在自己的文化里工作,并且彼此用同一套方式协作。',
         'Lumicome 想做的就是这件事。',
         '我们以巴黎与上海为两端,把分散在全球的华人创作者组织起来。Archive 公开作品。Journal 公开方法。Protocol 公开承诺。',
@@ -354,7 +354,7 @@ const LUMI = {
       ],
       en: [
         'Over the past decade I have been walking between Paris and Shanghai. I watched European brands hand their narrative over to Chinese agencies that did not understand them. I watched Chinese brands go to Paris and be reduced by local PR to "another oriental story."',
-        'Channels exist. Budgets exist. What goes missing is a role — someone who can read both cultures at once.',
+        'People who can read both cultures fluently — there have never been many.',
         'One person cannot hold that role. It takes photographers, directors, art directors, field producers — each working long-term in their own culture, all collaborating under one shared way of working.',
         'That is what Lumicome is.',
         'We hold Paris and Shanghai as our two ends, and gather scattered Chinese creators worldwide. Archive publishes the work. Journal publishes the method. Protocol publishes the commitments.',
