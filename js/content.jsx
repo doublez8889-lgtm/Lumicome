@@ -29,7 +29,7 @@ const LUMI = {
     stats: [
       { v: '05',  k: { zh: '执行属地',     en: 'Jurisdictions' } },
       { v: '30+', k: { zh: '服务品牌',     en: 'Brands served' } },
-      { v: 'IV',  k: { zh: '学科领域',     en: 'Disciplines' } },
+      { v: 'IV',  k: { zh: '创作方向',     en: 'Practice areas' } },
       { v: 'II',  k: { zh: '常驻工作室',   en: 'Studios' } },
     ],
     modules: [

@@ -59,8 +59,8 @@ const LUMI = {
     }, {
       v: 'IV',
       k: {
-        zh: '学科领域',
-        en: 'Disciplines'
+        zh: '创作方向',
+        en: 'Practice areas'
       }
     }, {
       v: 'II',
