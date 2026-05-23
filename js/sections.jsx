@@ -198,7 +198,7 @@ function JournalPage({ lang }) {
 
   return (
     <section className="page wrap" data-screen-label="Journal">
-      <div className={`page-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>II — {lang === 'zh' ? '编辑室' : 'The Journal'}</div>
+      <div className={`page-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>II — {lang === 'zh' ? '编辑室' : 'The Editorial'}</div>
       <h1 className={`page-title ${lang === 'zh' ? 'cn' : ''}`}>{L(e.headline, lang)}</h1>
       <p className={`lead ${lang === 'zh' ? 'cn' : ''}`}>{L(e.intro, lang)}</p>
 
@@ -254,7 +254,7 @@ function CollaborativePage({ lang, go }) {
 
   return (
     <section className="page wrap" data-screen-label="Collaborative">
-      <div className={`page-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>III — {lang === 'zh' ? '协作院' : 'The Collaborative'}</div>
+      <div className={`page-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>III — {lang === 'zh' ? '协作网络' : 'The Network'}</div>
       <h1 className={`page-title ${lang === 'zh' ? 'cn' : ''}`}>{L(n.headline, lang)}</h1>
       <p className={`lead ${lang === 'zh' ? 'cn' : ''}`}>{L(n.intro, lang)}</p>
 
@@ -344,7 +344,7 @@ function CollaborativePage({ lang, go }) {
               <label htmlFor="ack">
                 {lang === 'zh' ? '我已阅读并承诺共同遵守 ' : 'I agree to uphold '}
                 <a href="#protocol" className="inline-link" style={{ fontSize: 'inherit' }} onClick={(e) => { e.preventDefault(); go('protocol'); }}>
-                  {lang === 'zh' ? '《Lumicome 全球跨境协作公约》' : 'the Lumicome Global Cross-Border Collaboration Charter'}
+                  {lang === 'zh' ? '《Lumicome 全球跨境协作规范》' : 'the Lumicome Global Cross-Border Collaboration Protocol'}
                 </a>。
               </label>
             </div>
@@ -373,13 +373,13 @@ function CollaborativePage({ lang, go }) {
 }
 
 // =====================================================
-// PROTOCOL page — Conduct & SLA Charter
+// PROTOCOL page — Conduct & SLA Protocol
 // =====================================================
 function ProtocolPage({ lang }) {
   const s = LUMI.protocol;
   return (
     <section className="page wrap" data-screen-label="Protocol">
-      <div className={`page-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>IV — {lang === 'zh' ? '协作公约' : 'The Protocol'}</div>
+      <div className={`page-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>IV — {lang === 'zh' ? '规范' : 'The Protocol'}</div>
       <h1 className={`page-title ${lang === 'zh' ? 'cn' : ''}`}>{L(s.headline, lang)}</h1>
       <p className={`lead ${lang === 'zh' ? 'cn' : ''}`}>{L(s.intro, lang)}</p>
 

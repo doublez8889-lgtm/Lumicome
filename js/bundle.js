@@ -14,14 +14,14 @@ const LUMI = {
     }, {
       id: 'journal',
       zh: '编辑室',
-      en: 'Journal'
+      en: 'Editorial'
     }, {
       id: 'collaborative',
-      zh: '协作院',
-      en: 'Collaborative'
+      zh: '协作网络',
+      en: 'Network'
     }, {
       id: 'protocol',
-      zh: '协作公约',
+      zh: '规范',
       en: 'Protocol'
     }, {
       id: 'contact',
@@ -89,7 +89,7 @@ const LUMI = {
       n: 'II',
       title: {
         zh: '编辑室',
-        en: 'The Journal'
+        en: 'The Editorial'
       },
       sub: {
         zh: '跨境项目研究与方法论',
@@ -103,8 +103,8 @@ const LUMI = {
       id: 'collaborative',
       n: 'III',
       title: {
-        zh: '协作院',
-        en: 'The Collaborative'
+        zh: '协作网络',
+        en: 'The Network'
       },
       sub: {
         zh: '面向全球的独立创作者准入',
@@ -118,16 +118,16 @@ const LUMI = {
       id: 'protocol',
       n: 'IV',
       title: {
-        zh: '协作公约',
+        zh: '规范',
         en: 'The Protocol'
       },
       sub: {
-        zh: '全球跨境协作公约',
-        en: 'Global cross-border charter'
+        zh: '全球跨境协作规范',
+        en: 'Global cross-border protocol'
       },
       body: {
-        zh: '我们怎么工作,写在这里。一份在不同语言、不同属地之间都能用的协作公约。',
-        en: 'How we work, written down. A charter that holds across languages and jurisdictions.'
+        zh: '我们怎么工作,写在这里。一份在不同语言、不同属地之间都能用的协作规范。',
+        en: 'How we work, written down. A protocol that holds across languages and jurisdictions.'
       }
     }],
     partners: ['SHIATZY CHEN', 'Printemps', 'Forbes Global Alliance', 'Business of Fashion', 'Numéro', 'ModeZine']
@@ -295,7 +295,7 @@ const LUMI = {
   journal: {
     headline: {
       zh: '编辑室。',
-      en: 'The Journal.'
+      en: 'The Editorial.'
     },
     intro: {
       zh: '一份关于跨境创意制作的独立专栏。每月一篇。写的都是现场反复遇到的问题 —— 去掉具体身份之后,公开发布,可以被引用。',
@@ -394,8 +394,8 @@ const LUMI = {
   // ====== COLLABORATIVE (Network) ======
   collaborative: {
     headline: {
-      zh: '协作院。',
-      en: 'The Collaborative.'
+      zh: '协作网络。',
+      en: 'The Network.'
     },
     intro: {
       zh: '一份面向全球独立华人创作者的开放名录。共同的工作标准是入选的唯一前提。我们不将地缘、资历或人脉作为考量指标。',
@@ -427,8 +427,8 @@ const LUMI = {
       bodyZh: '主要属地的现场制片团队。'
     }],
     charterAcknowledge: {
-      zh: '准入申请人需阅读并承诺共同遵守《Lumicome 全球跨境协作公约》—— 这是协作的前提。',
-      en: 'Applicants are required to read and undertake to observe the Lumicome Global Cross-Border Collaboration Charter — the precondition of collaboration.'
+      zh: '准入申请人需阅读并承诺共同遵守《Lumicome 全球跨境协作规范》—— 这是协作的前提。',
+      en: 'Applicants are required to read and undertake to observe the Lumicome Global Cross-Border Collaboration Protocol — the precondition of collaboration.'
     },
     formIntro: {
       zh: '请按下述项目提交基础资料。我们将在两周内对符合协作基础的申请人作出回复。',
@@ -439,8 +439,8 @@ const LUMI = {
   // ====== PROTOCOL (Conduct & SLA) ======
   protocol: {
     headline: {
-      zh: '全球跨境协作公约。',
-      en: 'The Global Cross-Border Collaboration Charter.'
+      zh: '全球跨境协作规范。',
+      en: 'The Global Cross-Border Collaboration Protocol.'
     },
     intro: {
       zh: '以下是 Lumicome 在跨境创意项目中执行的协作框架。十节条款,涵盖筹备、执行、版权与争议解决,用通用的合同语言公开发布,供合作品牌、独立创作者与属地团队对照。',
@@ -600,8 +600,8 @@ const LUMI = {
         en: 'Dispute Resolution & Governing Law'
       },
       body: {
-        zh: '本公约及由其衍生的具体合同,适用法国法律。双方就项目执行产生的争议,首先通过双方 SPOC 协商解决;协商不成的,提交巴黎国际商会仲裁院(ICC · Paris)依其规则进行仲裁,仲裁语言为英语,仲裁裁决为终局并对双方有约束力。',
-        en: 'This Charter and any contract derived from it are governed by French law. Disputes arising from project execution shall first be resolved by the two SPOCs in good-faith consultation. Failing resolution, the dispute shall be submitted to the ICC International Court of Arbitration (Paris) for arbitration under its rules; the language of arbitration shall be English; the award shall be final and binding on both parties.'
+        zh: '本规范及由其衍生的具体合同,适用法国法律。双方就项目执行产生的争议,首先通过双方 SPOC 协商解决;协商不成的,提交巴黎国际商会仲裁院(ICC · Paris)依其规则进行仲裁,仲裁语言为英语,仲裁裁决为终局并对双方有约束力。',
+        en: 'This Protocol and any contract derived from it are governed by French law. Disputes arising from project execution shall first be resolved by the two SPOCs in good-faith consultation. Failing resolution, the dispute shall be submitted to the ICC International Court of Arbitration (Paris) for arbitration under its rules; the language of arbitration shall be English; the award shall be final and binding on both parties.'
       },
       bullets: [{
         zh: '双方可在《项目服务说明》中另行约定上海仲裁委员会(SHIAC)作为替代仲裁机构。',
@@ -609,8 +609,8 @@ const LUMI = {
       }]
     }],
     footnote: {
-      zh: '本公约的具体法律效力以双方正式合同为准。建议合作方在签署前由熟悉相关法域商法的法律顾问审阅。',
-      en: 'The binding legal effect of this Charter is determined by the parties\' formal contract. Counterparties are advised to have it reviewed by counsel familiar with the relevant jurisdiction prior to signature.'
+      zh: '本规范的具体法律效力以双方正式合同为准。建议合作方在签署前由熟悉相关法域商法的法律顾问审阅。',
+      en: 'The binding legal effect of this Protocol is determined by the parties\' formal contract. Counterparties are advised to have it reviewed by counsel familiar with the relevant jurisdiction prior to signature.'
     }
   },
   // ====== VISION (founder letter — accessible from footer) ======
@@ -655,8 +655,8 @@ const LUMI = {
         en: 'Our position'
       },
       v: {
-        zh: '区别于传统代理或单点服务,我们以"事务所"结构运作 —— 旗下设立档案、编辑室、协作院与公约四个核心板块。',
-        en: 'Distinct from a conventional agency or single-service vendor, we operate as an atelier — organised across four core sections: Archive, Journal, Collaborative, and Protocol.'
+        zh: '区别于传统代理或单点服务,我们以"事务所"结构运作 —— 旗下设立档案、编辑室、协作网络与规范四个核心板块。',
+        en: 'Distinct from a conventional agency or single-service vendor, we operate as an atelier — organised across four core sections: Archive, Editorial, Network, and Protocol.'
       }
     }, {
       k: {
@@ -2124,7 +2124,7 @@ function JournalPage({
     "data-screen-label": "Journal"
   }, /*#__PURE__*/React.createElement("div", {
     className: `page-eyebrow ${lang === 'zh' ? 'cn' : ''}`
-  }, "II \u2014 ", lang === 'zh' ? '编辑室' : 'The Journal'), /*#__PURE__*/React.createElement("h1", {
+  }, "II \u2014 ", lang === 'zh' ? '编辑室' : 'The Editorial'), /*#__PURE__*/React.createElement("h1", {
     className: `page-title ${lang === 'zh' ? 'cn' : ''}`
   }, L(e.headline, lang)), /*#__PURE__*/React.createElement("p", {
     className: `lead ${lang === 'zh' ? 'cn' : ''}`
@@ -2189,7 +2189,7 @@ function CollaborativePage({
     "data-screen-label": "Collaborative"
   }, /*#__PURE__*/React.createElement("div", {
     className: `page-eyebrow ${lang === 'zh' ? 'cn' : ''}`
-  }, "III \u2014 ", lang === 'zh' ? '协作院' : 'The Collaborative'), /*#__PURE__*/React.createElement("h1", {
+  }, "III \u2014 ", lang === 'zh' ? '协作网络' : 'The Network'), /*#__PURE__*/React.createElement("h1", {
     className: `page-title ${lang === 'zh' ? 'cn' : ''}`
   }, L(n.headline, lang)), /*#__PURE__*/React.createElement("p", {
     className: `lead ${lang === 'zh' ? 'cn' : ''}`
@@ -2317,7 +2317,7 @@ function CollaborativePage({
       e.preventDefault();
       go('protocol');
     }
-  }, lang === 'zh' ? '《Lumicome 全球跨境协作公约》' : 'the Lumicome Global Cross-Border Collaboration Charter'), "\u3002")), /*#__PURE__*/React.createElement("button", {
+  }, lang === 'zh' ? '《Lumicome 全球跨境协作规范》' : 'the Lumicome Global Cross-Border Collaboration Protocol'), "\u3002")), /*#__PURE__*/React.createElement("button", {
     className: `form-submit ${lang === 'zh' ? 'cn' : ''}`,
     type: "submit"
   }, lang === 'zh' ? '提交申请' : 'Submit application', " \u2192")) : /*#__PURE__*/React.createElement("div", {
@@ -2357,7 +2357,7 @@ function CollaborativePage({
 }
 
 // =====================================================
-// PROTOCOL page — Conduct & SLA Charter
+// PROTOCOL page — Conduct & SLA Protocol
 // =====================================================
 function ProtocolPage({
   lang
@@ -2368,7 +2368,7 @@ function ProtocolPage({
     "data-screen-label": "Protocol"
   }, /*#__PURE__*/React.createElement("div", {
     className: `page-eyebrow ${lang === 'zh' ? 'cn' : ''}`
-  }, "IV \u2014 ", lang === 'zh' ? '协作公约' : 'The Protocol'), /*#__PURE__*/React.createElement("h1", {
+  }, "IV \u2014 ", lang === 'zh' ? '规范' : 'The Protocol'), /*#__PURE__*/React.createElement("h1", {
     className: `page-title ${lang === 'zh' ? 'cn' : ''}`
   }, L(s.headline, lang)), /*#__PURE__*/React.createElement("p", {
     className: `lead ${lang === 'zh' ? 'cn' : ''}`
