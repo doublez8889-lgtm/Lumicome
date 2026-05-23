@@ -557,8 +557,8 @@ const LUMI = {
       {
         n: 'IV',
         title: { zh: 'Politique de confidentialité · 隐私政策', en: 'Privacy · GDPR & PIPL' },
-        body: { zh: '本站尊重访客的个人数据权利,严格依据欧盟《通用数据保护条例》(GDPR · 2016/679)、法国《数据保护法》(loi Informatique et Libertés)与中国《个人信息保护法》(PIPL · 2021)处理个人信息。',
-                en: 'The site respects the personal data rights of all visitors and processes personal data in strict accordance with the EU General Data Protection Regulation (GDPR · 2016/679), the French Data Protection Act (Loi Informatique et Libertés), and the PRC Personal Information Protection Law (PIPL · 2021).' },
+        body: { zh: '本站依据欧盟《通用数据保护条例》(GDPR · 2016/679)、法国《数据保护法》(loi Informatique et Libertés)与中国《个人信息保护法》(PIPL · 2021)处理访客的个人信息。',
+                en: "The site processes visitors' personal data in accordance with the EU General Data Protection Regulation (GDPR · 2016/679), the French Data Protection Act (Loi Informatique et Libertés), and the PRC Personal Information Protection Law (PIPL · 2021)." },
         bullets: [
           { zh: '收集的数据 · 仅限通过联系表单、协作者准入表单、Newsletter 订阅自愿提交的姓名、邮箱、城市、专业背景、附言。',
             en: 'Data collected · only the name, email, city, professional details and notes that you voluntarily submit through the contact form, collaborator intake form, or newsletter signup.' },
