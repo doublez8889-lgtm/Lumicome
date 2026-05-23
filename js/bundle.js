@@ -684,8 +684,8 @@ const LUMI = {
       en: 'Press & Recognition'
     },
     headline: {
-      zh: '这几年,被人这样写过。',
-      en: 'A few things people have written about us.'
+      zh: '媒体。',
+      en: 'Press.'
     },
     intro: {
       zh: '我们没有主动的公关计划。如有媒体报道或合作意向,请直接来信。',
