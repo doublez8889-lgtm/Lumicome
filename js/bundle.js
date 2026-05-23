@@ -81,8 +81,8 @@ const LUMI = {
         en: 'Visual project archive'
       },
       body: {
-        zh: '近年完成的国际高定项目档案——每一项附完整 crew,让每一位现场创作者都被记下来。',
-        en: 'A recent archive of international couture projects — each with a full crew list, so every name on set is recorded.'
+        zh: '近年完成的国际高定项目档案。按品牌广告、编辑作品与幕后分类浏览。',
+        en: 'A recent archive of international couture projects. Browseable by campaign, editorial, and behind-the-scenes.'
       }
     }, {
       id: 'journal',
@@ -126,8 +126,8 @@ const LUMI = {
         en: 'Global cross-border charter'
       },
       body: {
-        zh: '我们怎么工作,明文写在这里——一份在三种语言、五个属地都成立的协作公约。',
-        en: 'How we work, written out here — a charter that holds across three languages and five jurisdictions.'
+        zh: '我们怎么工作,写在这里。一份在不同语言、不同属地之间都能用的协作公约。',
+        en: 'How we work, written down. A charter that holds across languages and jurisdictions.'
       }
     }],
     partners: ['SHIATZY CHEN', 'Printemps', 'Forbes Global Alliance', 'Business of Fashion', 'Numéro', 'ModeZine']
@@ -139,8 +139,8 @@ const LUMI = {
       en: 'The Archive.'
     },
     intro: {
-      zh: '近年项目档案。每一项均按国际项目元数据标准建档——附完整 crew list、属地团队与创作分工,公开发布。',
-      en: 'Recent project archive. Each entry is documented to international project-metadata standard — published with full crew list, local team, and creative attribution.'
+      zh: '近年项目档案。按品牌广告、编辑作品与幕后分类整理。',
+      en: 'Recent project archive. Organised by campaign, editorial, and behind-the-scenes.'
     },
     filters: [{
       id: 'all',
@@ -298,8 +298,8 @@ const LUMI = {
       en: 'The Journal.'
     },
     intro: {
-      zh: '一份关于跨境创意制作的独立研究专栏。每月一篇,脱敏发布。所写皆为现场反复出现的真实问题——以公开、克制、可被引用的方式说出来。',
-      en: 'An independent research column on cross-border creative production. Monthly, with identifying material redacted. Each entry addresses a problem we keep encountering on set — written here in a form that is public, restrained, and citable.'
+      zh: '一份关于跨境创意制作的独立专栏。每月一篇。写的都是现场反复遇到的问题 —— 去掉具体身份之后,公开发布,可以被引用。',
+      en: 'An independent column on cross-border creative production. Monthly. Each entry takes a problem we keep encountering on set, removes the identifying details, and publishes it so it can be cited.'
     },
     items: [{
       vol: 'No. 01',
@@ -382,12 +382,12 @@ const LUMI = {
     }],
     sampleEssay: {
       body: {
-        zh: ['王陈彩霞女士 1990 年在巴黎开设第一间工作室,是法国时尚协会当时唯一的大中华区品牌创办人。她生产的是中式服装,但工作方式完全在欧洲高定体系内成立。', '这是一个值得长期回看的样本——它指向一个被忽视的事实:跨文化叙事的成立,并非在于元素的拼贴,而在于工作方式的迁移与翻译。', '中国高端品牌过去二十年的国际化实践,大多停留在符号层面的精致化。两种文化间的工作方法、决策习惯、对客户的态度——这些更底层的部分,长期缺乏系统性的研究和实践。'],
-        en: ['Madame Wang Chen Tsai-Hsia opened her first Paris atelier in 1990, at the time the only founder from Greater China admitted to the Chambre Syndicale. She made Chinese clothing — but her practice was fully constituted within the European haute couture tradition.', 'This is a sample worth revisiting at length. It points to an under-acknowledged fact: cross-cultural narrative does not arise from collage, but from the migration and translation of working methods.', 'Most premium-brand internationalisation from China in the past two decades has remained at the level of refined surface signs. The deeper layers — working methods, decision habits, posture toward clients — have lacked systematic study and practice.']
+        zh: ['王陈彩霞女士 1990 年在巴黎开设第一间工作室,是法国时尚协会当时唯一的大中华区品牌创办人。她生产的是中式服装,但用的是欧洲高定的工作方式。', '这个样本值得长期回看。它告诉我们:跨文化叙事真正发生在工作方式的层面,符号只是表层。', '过去二十年,中国高端品牌的国际化大多停在符号上。工作方法、决策习惯、对客户的态度——这些更底下的部分,几乎没有人系统地写过。'],
+        en: ['Madame Wang Chen Tsai-Hsia opened her first Paris atelier in 1990, at the time the only founder from Greater China admitted to the Chambre Syndicale. She made Chinese clothing — using European haute couture working methods.', 'It is a sample worth revisiting. What it tells us: cross-cultural narrative happens at the level of working method. Surface signs are just the surface.', "Most premium-brand internationalisation from China over the past two decades has stayed at the level of surface signs. Working method, decision habits, posture toward clients — the deeper layers — almost no one has written about them systematically."]
       },
       pull: {
-        zh: '跨文化叙事的核心,不在符号,而在方法。',
-        en: 'The core of cross-cultural narrative lies not in signs, but in method.'
+        zh: '符号只是表层。跨文化叙事的核心是方法。',
+        en: 'Surface signs are just the surface. Cross-cultural narrative is, at its core, method.'
       }
     }
   },
@@ -427,8 +427,8 @@ const LUMI = {
       bodyZh: '主要属地的现场制片团队。'
     }],
     charterAcknowledge: {
-      zh: '准入申请人需阅读并承诺共同遵守《Lumicome 全球跨境协作公约》——这是协作的前提,也是对每一位创作者的尊重。',
-      en: 'Applicants are required to read and undertake to observe the Lumicome Global Cross-Border Collaboration Charter — the precondition of collaboration, and a baseline of mutual respect.'
+      zh: '准入申请人需阅读并承诺共同遵守《Lumicome 全球跨境协作公约》—— 这是协作的前提。',
+      en: 'Applicants are required to read and undertake to observe the Lumicome Global Cross-Border Collaboration Charter — the precondition of collaboration.'
     },
     formIntro: {
       zh: '请按下述项目提交基础资料。我们将在两周内对符合协作基础的申请人作出回复。',
@@ -443,8 +443,8 @@ const LUMI = {
       en: 'The Global Cross-Border Collaboration Charter.'
     },
     intro: {
-      zh: '以下为 Lumicome 在所有跨境创意项目中执行的协作框架。十节条款,涵盖筹备、执行、版权与争议解决——以国际商法的通用语言公开发布,为合作品牌、独立创作者、属地团队共同提供可预期、可对照的工作基础。',
-      en: 'The following is the collaboration framework Lumicome applies to every cross-border creative project. Ten clauses, covering preparation, execution, image rights, and dispute resolution — published in standard international commercial language, as a predictable and citable basis of work for partner brands, independent creators, and field teams.'
+      zh: '以下是 Lumicome 在跨境创意项目中执行的协作框架。十节条款,涵盖筹备、执行、版权与争议解决,用通用的合同语言公开发布,供合作品牌、独立创作者与属地团队对照。',
+      en: 'The following is the collaboration framework Lumicome applies to cross-border creative projects. Ten clauses, covering preparation, execution, image rights, and dispute resolution — published in standard contractual language, for partner brands, independent creators, and field teams to refer to.'
     },
     sections: [{
       n: 'I',
@@ -620,12 +620,12 @@ const LUMI = {
       en: 'Vision · A note from the founder'
     },
     headline: {
-      zh: '我们想做的,不是一家工作室。',
-      en: 'What we are building is not a studio.'
+      zh: '为什么做 Lumicome。',
+      en: 'Why Lumicome.'
     },
     body: {
-      zh: ['过去十年,我在巴黎和上海之间走。我看到欧洲品牌进入中国时,把品牌叙事交给了不理解他们的代理商;也看到中国品牌走向欧洲时,被本地 PR 公司讲成了「另一个东方风情」。', '中间真正缺少的,从来不是渠道、不是预算——是一种角色:能同时读懂两种文化的创作者。', '更进一步说——这种角色无法靠一个人完成。需要一个生态:有摄影师、有导演、有美术、有属地制片;每个人都在自己的文化里长期生活、严肃创作;并且——共同遵循一套尊重彼此的工作方式。', 'Lumicome 想做的就是这件事。', '我们以巴黎与上海为两端,以国际行业标准为骨架,把分散在全球的华人创作者组织起来。我们用 Archive 公开作品、用 Journal 公开方法、用 Protocol 公开承诺——这三件事加在一起,就是「身份」。', '我们相信,在中欧高端品牌走向相互理解的这十年里,这样一个生态是必需的。我们不是在做一门好生意,我们是在补一个行业空缺。'],
-      en: ['Over the past decade I have been walking between Paris and Shanghai. I watched European brands hand their narrative over to Chinese agencies that did not understand them. I watched Chinese brands go to Paris and be reduced by local PR to "another oriental story."', 'What is missing between the two markets has never been channels, never been budget. What is missing is a role — someone who can read both cultures at once.', 'And more than that: no single person can carry the role. It takes an ecosystem. Photographers, directors, art directors, field producers — each living seriously in their own culture, each making serious work, and all operating under a shared, mutually respectful way of working.', 'That is what Lumicome is.', 'We hold Paris and Shanghai as our two ends. We use international industry standards as the spine. And we organise scattered Chinese creators worldwide into something they can rely on. We publish our work as Archive, our method as Journal, our commitments as Protocol — together, these are identity.', 'In the decade ahead, as premium brands in China and Europe move toward each other, an ecosystem of this kind will be necessary. We are not building a profitable business. We are filling a gap in the industry.']
+      zh: ['过去十年,我在巴黎和上海之间走。我看到欧洲品牌进入中国时,把品牌叙事交给了不理解他们的代理商;也看到中国品牌走向欧洲时,被本地 PR 公司讲成了「另一个东方风情」。', '渠道有,预算有。一直缺的是一种角色:能同时读懂两种文化的创作者。', '这种角色,一个人完不成。它需要摄影师、导演、美术、属地制片;每个人长期在自己的文化里工作,并且彼此用同一套方式协作。', 'Lumicome 想做的就是这件事。', '我们以巴黎与上海为两端,把分散在全球的华人创作者组织起来。Archive 公开作品。Journal 公开方法。Protocol 公开承诺。', '中欧高端品牌走向相互理解的这十年里,这样一个网络会被需要。'],
+      en: ['Over the past decade I have been walking between Paris and Shanghai. I watched European brands hand their narrative over to Chinese agencies that did not understand them. I watched Chinese brands go to Paris and be reduced by local PR to "another oriental story."', 'Channels exist. Budgets exist. What goes missing is a role — someone who can read both cultures at once.', 'One person cannot hold that role. It takes photographers, directors, art directors, field producers — each working long-term in their own culture, all collaborating under one shared way of working.', 'That is what Lumicome is.', 'We hold Paris and Shanghai as our two ends, and gather scattered Chinese creators worldwide. Archive publishes the work. Journal publishes the method. Protocol publishes the commitments.', 'Over the next decade, as premium brands in China and Europe move toward each other, this kind of network will be needed.']
     },
     sign: {
       zh: 'Lumicome 创始团队 · 2026',
@@ -660,12 +660,12 @@ const LUMI = {
       }
     }, {
       k: {
-        zh: '量化目标',
-        en: 'Three-year goal'
+        zh: '方向',
+        en: 'Direction'
       },
       v: {
-        zh: '建立 50+ 高端品牌项目档案、200+ 创作者协作名录、跨 5 个执行属地的标准化协作能力。',
-        en: '50+ premium project archive, 200+ creators in the roster, standardised execution across 5 jurisdictions.'
+        zh: '把分散在全球的华人创作者,组织成一个可以共同协作的网络。',
+        en: 'Organise scattered Chinese creators worldwide into a network that can work together.'
       }
     }],
     ctaPress: {
@@ -740,8 +740,8 @@ const LUMI = {
       en: 'A team of cross-cultural practitioners.'
     },
     intro: {
-      zh: 'Lumicome 由长期在巴黎与上海工作、跨语言协作的创作者组成。我们相信,跨文化项目的最终质量,来自于团队成员各自在两个文化里的真实经历——而非仅靠流程。',
-      en: 'Lumicome is built by practitioners with long working experience between Paris and Shanghai. We believe the ultimate quality of a cross-cultural project comes from real lived experience in both cultures, not protocol alone.'
+      zh: 'Lumicome 由长期在巴黎与上海工作、跨语言协作的创作者组成。跨文化项目的质量,首先来自每个人在两个文化里实地工作的经验。',
+      en: 'Lumicome is built by practitioners with long working experience between Paris and Shanghai. The quality of cross-cultural work begins with each person\'s lived experience in both cultures.'
     },
     members: [{
       role: {
