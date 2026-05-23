@@ -1792,6 +1792,28 @@ a { color: inherit; text-decoration: none; }
 }
 .tm-bio.cn { font-family: var(--sans-cn); }
 
+/* ---------- expertise tags (team) ---------- */
+.expertise-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  margin-top: 20px;
+}
+.expertise-tags li {
+  font-size: 11px;
+  color: var(--ink-2);
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+}
+.expertise-tags.cn li { font-family: var(--sans-cn); font-size: 12px; }
+.tm-info .expertise-tags { margin-top: 14px; gap: 5px; }
+.tm-info .expertise-tags li { font-size: 10.5px; padding: 4px 10px; }
+.tm-info .expertise-tags.cn li { font-size: 11.5px; }
+
 /* ---------- ADVISORS ---------- */
 .adv-title {
   font-family: var(--serif-en);

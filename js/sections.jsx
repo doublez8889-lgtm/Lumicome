@@ -13,7 +13,7 @@ function HomePage({ lang, go }) {
         <div className="wrap">
           <div className={`hero-eyebrow ${lang === 'zh' ? 'cn' : ''}`}>
             <span>{L(h.eyebrow, lang)}</span>
-            <span>Lumicome ®</span>
+            <span>Lumicome</span>
           </div>
 
           <h1 className={`hero-banner-h ${lang === 'zh' ? 'cn' : ''}`}>
@@ -23,14 +23,6 @@ function HomePage({ lang, go }) {
           </h1>
 
           <p className={`hero-banner-sub ${lang === 'zh' ? 'cn' : ''}`}>{L(h.sub, lang)}</p>
-        </div>
-
-        <div className="ticker">
-          <div className="ticker-track">
-            {[...h.ticker, ...h.ticker, ...h.ticker].map((c, i) => (
-              <span className="ticker-item" key={i}>{c}<span className="dot">●</span></span>
-            ))}
-          </div>
         </div>
 
         <div className="wrap">
@@ -526,6 +518,11 @@ function TeamPage({ lang }) {
           <div className={`founder-bio ${lang === 'zh' ? 'cn' : ''}`}>
             {t.founder.bio[lang].map((p, i) => <p key={i}>{p}</p>)}
           </div>
+          {t.founder.expertise && (
+            <ul className={`expertise-tags ${lang === 'zh' ? 'cn' : ''}`}>
+              {t.founder.expertise[lang].map((x, i) => <li key={i}>{x}</li>)}
+            </ul>
+          )}
           <div className="founder-links">
             {t.founder.links.map((l, i) => (
               <a key={i} className="inline-link" href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel="noopener">
@@ -554,6 +551,11 @@ function TeamPage({ lang }) {
               <h3 className={`tm-name ${lang === 'zh' ? 'cn' : ''}`}>{L(m.name, lang)}</h3>
               <span className={`tm-based ${lang === 'zh' ? 'cn' : ''}`}>{L(m.based, lang)}</span>
               <p className={`tm-bio ${lang === 'zh' ? 'cn' : ''}`}>{L(m.bio, lang)}</p>
+              {m.expertise && (
+                <ul className={`expertise-tags ${lang === 'zh' ? 'cn' : ''}`}>
+                  {m.expertise[lang].map((x, j) => <li key={j}>{x}</li>)}
+                </ul>
+              )}
             </div>
           </article>
         ))}
@@ -757,7 +759,7 @@ function FooterBlock({ lang, go }) {
 
       <footer className={`foot ${lang === 'zh' ? 'cn' : ''}`}>
         <div>
-          <strong>Lumicome ®</strong>
+          <strong>Lumicome</strong>
           <p>{lang === 'zh' ? '中欧跨境创意生态平台。' : 'A China–Europe cross-border creative ecosystem.'}</p>
           <p style={{ marginTop: 8, color: 'var(--mute)' }}>{lang === 'zh' ? '成立于 2025 · 巴黎 / 上海' : 'Established 2025 · Paris / Shanghai'}</p>
         </div>
