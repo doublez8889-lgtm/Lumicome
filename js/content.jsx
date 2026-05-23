@@ -204,7 +204,6 @@ const LUMI = {
       zh: '一份面向全球独立华人创作者的开放名录。共同的工作标准——而非地缘、资历或人脉——是入选的唯一前提。',
       en: 'An open roster of independent Chinese creators worldwide. Shared working standards — not geography, seniority, or connections — are the sole criterion for admission.',
     },
-    presence: ['Paris', 'Shanghai', 'Milan', 'New York', 'Tokyo', 'London', 'Seoul', 'Los Angeles'],
     disciplines: [
       { n: 'I',   en: 'Direction',           cn: '导演',           bodyEn: 'Commercials, brand films, short films, documentary.', bodyZh: '广告、品牌片、短片、纪录片。' },
       { n: 'II',  en: 'Cinematography',      cn: '摄影 / 灯光',    bodyEn: 'DoP, lighting, fashion photography, editorial.',       bodyZh: '摄影指导、灯光、时尚摄影、刊物。' },

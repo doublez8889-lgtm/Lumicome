@@ -258,15 +258,6 @@ function CollaborativePage({ lang, go }) {
       <h1 className={`page-title ${lang === 'zh' ? 'cn' : ''}`}>{L(n.headline, lang)}</h1>
       <p className={`lead ${lang === 'zh' ? 'cn' : ''}`}>{L(n.intro, lang)}</p>
 
-      <div className="presence-row" style={{ marginTop: 'clamp(48px, 7vh, 72px)' }}>
-        <span className={`partners-label ${lang === 'zh' ? 'cn' : ''}`} style={{ marginBottom: 12 }}>
-          {lang === 'zh' ? '现有创作者所在城市' : 'Current creators based in'}
-        </span>
-        <div className="presence-list">
-          {n.presence.map((c, i) => <span key={i} className="city">{c}</span>)}
-        </div>
-      </div>
-
       <div className="disc-grid" style={{ marginTop: 'clamp(48px, 8vh, 80px)' }}>
         {n.disciplines.map((d, i) => (
           <div className="disc-item" key={i}>

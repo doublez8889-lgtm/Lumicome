@@ -401,7 +401,6 @@ const LUMI = {
       zh: '一份面向全球独立华人创作者的开放名录。共同的工作标准——而非地缘、资历或人脉——是入选的唯一前提。',
       en: 'An open roster of independent Chinese creators worldwide. Shared working standards — not geography, seniority, or connections — are the sole criterion for admission.'
     },
-    presence: ['Paris', 'Shanghai', 'Milan', 'New York', 'Tokyo', 'London', 'Seoul', 'Los Angeles'],
     disciplines: [{
       n: 'I',
       en: 'Direction',
@@ -2270,21 +2269,6 @@ function CollaborativePage({
   }, L(n.headline, lang)), /*#__PURE__*/React.createElement("p", {
     className: `lead ${lang === 'zh' ? 'cn' : ''}`
   }, L(n.intro, lang)), /*#__PURE__*/React.createElement("div", {
-    className: "presence-row",
-    style: {
-      marginTop: 'clamp(48px, 7vh, 72px)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: `partners-label ${lang === 'zh' ? 'cn' : ''}`,
-    style: {
-      marginBottom: 12
-    }
-  }, lang === 'zh' ? '现有创作者所在城市' : 'Current creators based in'), /*#__PURE__*/React.createElement("div", {
-    className: "presence-list"
-  }, n.presence.map((c, i) => /*#__PURE__*/React.createElement("span", {
-    key: i,
-    className: "city"
-  }, c)))), /*#__PURE__*/React.createElement("div", {
     className: "disc-grid",
     style: {
       marginTop: 'clamp(48px, 8vh, 80px)'
