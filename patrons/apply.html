@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>申请被考虑 · 委托方 · Lumicome</title>
+  <meta name="description" content="提交一封申请信。我们会在五个工作日内回复。">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@400;500&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="site">
+
+  <nav class="topnav">
+    <a class="topnav__brand" href="/">
+      <span class="topnav__brand-name">Lumicome</span>
+      <span class="topnav__brand-est">EST. MMXXVI&nbsp;&nbsp;PARIS</span>
+    </a>
+    <div class="topnav__right">
+      <div class="topnav__links">
+        <a href="/roster/">名册</a>
+        <a href="/works/">作品</a>
+        <a href="/writing/">手记</a>
+        <a href="/patrons/" class="is-current">委托方</a>
+        <a href="/office/">事务所</a>
+      </div>
+      <div class="topnav__lang">
+        <span class="lang-zh">中</span>
+        <span>/</span>
+        <span class="lang-en" tabindex="0">EN</span>
+      </div>
+    </div>
+  </nav>
+
+  <a class="backlink" href="/patrons/">← 返回委托方</a>
+
+  <form class="form" action="mailto:office@lumicome.studio" method="post" enctype="text/plain">
+    <h1 class="pageheader__title" style="padding:0; margin-bottom:1rem;">申请被考虑</h1>
+    <p class="pageheader__lede" style="max-width:50ch; margin-bottom:3rem;">请简短说明你是谁、希望委托什么、为何选择 Lumicome。我们会在五个工作日内回复。</p>
+
+    <div class="form__field">
+      <label class="form__label-zh" for="brand">品牌 / 公司名称</label>
+      <input class="form__input" type="text" id="brand" name="brand" required>
+    </div>
+
+    <div class="form__field">
+      <label class="form__label-zh" for="person">申请人姓名与职位</label>
+      <input class="form__input" type="text" id="person" name="person" required>
+    </div>
+
+    <div class="form__field">
+      <label class="form__label-zh" for="email">联络邮箱</label>
+      <input class="form__input" type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form__field">
+      <label class="form__label-zh" for="brief">你希望委托 Lumicome 做什么(300 字以内)</label>
+      <textarea class="form__textarea" id="brief" name="brief" maxlength="300" required></textarea>
+    </div>
+
+    <div class="form__field">
+      <label class="form__label-zh" for="source">你是如何知道 Lumicome 的(可选)</label>
+      <input class="form__input" type="text" id="source" name="source">
+    </div>
+
+    <label class="form__consent">
+      <input type="checkbox" name="consent" required>
+      <span>我同意 Lumicome 按照<a href="/legal/privacy.html" style="border-bottom:1px solid var(--ink-15);">隐私政策</a>处理我提交的信息。</span>
+    </label>
+
+    <button class="form__submit" type="submit">提交申请 →</button>
+  </form>
+
+  <footer class="footer">
+    <div class="footer__col">
+      <span class="footer__label footer__label--zh">事务所</span>
+      <span class="footer__line">巴黎 8 区</span>
+      <span class="footer__line"><a href="mailto:office@lumicome.studio">office@lumicome.studio</a></span>
+    </div>
+    <div class="footer__col">
+      <span class="footer__label footer__label--zh">名册</span>
+      <span class="footer__line">在册 七 位</span>
+      <span class="footer__line">以邀请相聚</span>
+    </div>
+    <div class="footer__col footer__col--right">
+      <span class="footer__brand">Lumicome</span>
+      <span class="footer__year">MMXXVI</span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
