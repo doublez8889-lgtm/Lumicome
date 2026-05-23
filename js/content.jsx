@@ -18,8 +18,8 @@ const LUMI = {
       en: 'Established 2025 · Paris / Shanghai',
     },
     banner: {
-      zh: ['中欧跨境', '创意生态平台。'],
-      en: ['A China–Europe', 'creative ecosystem.'],
+      zh: ['中欧跨境', '创意事务所。'],
+      en: ['A China–Europe', 'creative atelier.'],
     },
     sub: {
       zh: '十年间,我们在国际高端品牌项目里做过的事、写下的研究,以及与品牌、与创作者一起达成的工作方式——都收拢在这里。',
@@ -368,7 +368,7 @@ const LUMI = {
     pillars: [
       { k: { zh: '问题',     en: 'Problem' }, v: { zh: '中欧两端缺少一种「跨文化创作者」角色,品牌叙事在迁移中持续失真。', en: 'A missing cross-cultural-creator role between China and Europe; premium brand narratives degrade in transit.' } },
       { k: { zh: '机会',     en: 'Opportunity' }, v: { zh: '中欧高端品牌相互进入的十年,以及全球华人创作者的觉醒——两条曲线交汇。', en: 'A decade of premium-brand exchange between China and Europe, meeting the rise of Chinese creators globally.' } },
-      { k: { zh: '我们的位置', en: 'Our position' }, v: { zh: '不做代理、不做单点服务——做平台:档案 / 编辑室 / 协作院 / 公约。', en: 'Neither agency nor single-service vendor. A platform: Archive / Journal / Collaborative / Protocol.' } },
+      { k: { zh: '我们的位置', en: 'Our position' }, v: { zh: '不做代理、不做单点服务——做事务所:档案 / 编辑室 / 协作院 / 公约。', en: 'Neither agency nor single-service vendor. An atelier: Archive / Journal / Collaborative / Protocol.' } },
       { k: { zh: '量化目标',   en: 'Three-year goal' }, v: { zh: '建立 50+ 高端品牌项目档案、200+ 创作者协作名录、跨 5 个执行属地的标准化协作能力。', en: '50+ premium project archive, 200+ creators in the roster, standardised execution across 5 jurisdictions.' } },
     ],
     ctaPress: { zh: 'Press · 媒体报道',          en: 'Press & Recognition' },
@@ -383,46 +383,10 @@ const LUMI = {
       en: 'A few things people have written about us.',
     },
     intro: {
-      zh: '我们不太花精力做公关,但有些时刻还是被人记住了——下面这几条,放在这里供你参考。',
-      en: 'We do not spend much energy on press. But a few moments got noticed anyway — the ones below, for context.',
+      zh: '我们没有主动的公关计划。如有媒体报道或合作意向,请直接来信。',
+      en: "We do not maintain an active press programme. For coverage or collaboration enquiries, please write directly.",
     },
-    items: [
-      {
-        src: 'Forbes Global Alliance',
-        date: { zh: '2025 · 入选',  en: '2025 · Inducted' },
-        kind: { zh: '成员入选',     en: 'Member induction' },
-        quote: { zh: '在中欧之间持续输出原创战略视角的少数声音之一。', en: 'One of few sustained voices contributing original strategic perspective between China and Europe.' },
-        link: null,
-      },
-      {
-        src: 'Business of Fashion',
-        date: { zh: '伦敦总部 · 受访',   en: 'London HQ · interview' },
-        kind: { zh: '专访',              en: 'Feature interview' },
-        quote: { zh: '一种新的角色——能同时读懂两种文化的创作者。', en: 'A new kind of role — a maker who can read both cultures at once.' },
-        link: null,
-      },
-      {
-        src: 'Numéro',
-        date: { zh: '巴黎 · 撰稿',     en: 'Paris · Contribution' },
-        kind: { zh: '撰稿',            en: 'Contribution' },
-        quote: { zh: '把一个品牌的精神,从一种文化里取出来,放到另一种文化里——让它在那里依然成立。', en: 'To take a brand\'s spirit out of one culture and place it into another — and have it still stand.' },
-        link: null,
-      },
-      {
-        src: 'Chambre Syndicale de la Haute Couture',
-        date: { zh: '历史性合作',    en: 'Historic collaboration' },
-        kind: { zh: '品牌伙伴',      en: 'Brand partnership' },
-        quote: { zh: '与法国时尚协会唯一大中华区品牌创办人合作,完成「舞玉」短片系列。', en: 'Collaboration with the only Chambre Syndicale founder from Greater China on the Dance of Jade film series.' },
-        link: null,
-      },
-      {
-        src: 'Printemps Greater China',
-        date: { zh: '2024 — 持续',   en: '2024 — ongoing' },
-        kind: { zh: '总部委任',      en: 'HQ mandate' },
-        quote: { zh: '由 Printemps 总部 Asian Marketing 委任,统筹大中华区艺人事务与跨境项目。', en: 'Mandated by Printemps HQ Asian Marketing to coordinate talent affairs and cross-border production across Greater China.' },
-        link: null,
-      },
-    ],
+    items: [],
     inquiriesTitle: { zh: '媒体与投资人垂询', en: 'Press & investor enquiries' },
     inquiriesBody: {
       zh: '欢迎媒体记者、行业研究者与投资人来信。我们提供一份 1 页 Investor Brief 与一份完整品牌资料包(脱敏版),来信请说明用途与所属机构。',

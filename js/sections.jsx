@@ -713,7 +713,7 @@ function FooterBlock({ lang, go }) {
       <footer className={`foot ${lang === 'zh' ? 'cn' : ''}`}>
         <div>
           <strong>Lumicome</strong>
-          <p>{lang === 'zh' ? '中欧跨境创意生态平台。' : 'A China–Europe cross-border creative ecosystem.'}</p>
+          <p>{lang === 'zh' ? '中欧跨境创意事务所。' : 'A China–Europe cross-border creative atelier.'}</p>
           <p style={{ marginTop: 8, color: 'var(--mute)' }}>{lang === 'zh' ? '成立于 2025 · 巴黎 / 上海' : 'Established 2025 · Paris / Shanghai'}</p>
         </div>
         <div className="foot-col">
