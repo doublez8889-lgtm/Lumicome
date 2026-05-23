@@ -3,176 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lumicome · 一家位于巴黎的小型创意事务所</title>
-  <meta name="description" content="Lumicome 是一家位于巴黎的小型创意事务所,由分布在欧洲与亚洲的导演、摄影师、制片人与写作者组成。名册以介绍相识,委托方以邀请加入。">
+  <title>Lumicome · 中欧跨境创意生态平台</title>
+  <meta name="description" content="Lumicome · 一个由跨文化创作者组成的中欧跨境创意生态平台。Paris / Shanghai · Established 2025.">
   <meta property="og:title" content="Lumicome">
-  <meta property="og:description" content="名册以介绍相识。作品署完整名。委托方以邀请加入。联络不经第三人。">
+  <meta property="og:description" content="A China–Europe creative ecosystem. Archive · Journal · Collaborative · Protocol.">
   <meta property="og:type" content="website">
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Inter:wght@400;500&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-<div class="site">
+<body data-palette="paper">
 
-  <!-- 区块 1 / 顶部导航 -->
-  <nav class="topnav">
-    <a class="topnav__brand" href="/">
-      <span class="topnav__brand-name">Lumicome</span>
-      <span class="topnav__brand-est">EST. MMXXVI&nbsp;&nbsp;PARIS</span>
-    </a>
-    <div class="topnav__right">
-      <div class="topnav__links">
-        <a href="/roster/">名册</a>
-        <a href="/works/">作品</a>
-        <a href="/writing/">手记</a>
-        <a href="/patrons/">委托方</a>
-        <a href="/office/">事务所</a>
-      </div>
-      <div class="topnav__lang">
-        <span class="lang-zh">中</span>
-        <span>/</span>
-        <span class="lang-en" tabindex="0">EN</span>
-      </div>
-    </div>
-  </nav>
+  <div id="root"></div>
 
-  <!-- 区块 2 / 双栏陈述 -->
-  <section class="statement">
-    <div class="statement__col">
-      <div>
-        <span class="label">№ 01</span>
-        <p class="statement__main">由七位导演、摄影师、制片人与写作者组成的事务所。</p>
-      </div>
-      <div class="statement__footer">PARIS · TOKYO · SHANGHAI · ANTWERP · + 3</div>
-    </div>
-    <div class="statement__divider"></div>
-    <div class="statement__col">
-      <div>
-        <span class="label">№ 02</span>
-        <div class="statement__rules">
-          <p>名册以介绍相识。</p>
-          <p>作品署完整名。</p>
-          <p>委托方以邀请加入。</p>
-          <p>联络不经第三人。</p>
-        </div>
-        <div class="statement__rules-en">
-          Membership by introduction.<br>
-          Works signed in full.<br>
-          Patrons by invitation.<br>
-          Direct correspondence.
-        </div>
-      </div>
-      <div class="statement__footer">FOUNDED 2026</div>
-    </div>
-  </section>
+  <script src="/vendor/react.js"></script>
+  <script src="/vendor/react-dom.js"></script>
+  <script src="/js/bundle.js"></script>
 
-  <!-- 区块 3 / 近作目录 -->
-  <section class="section">
-    <div class="split">
-      <aside class="split__aside">
-        <div class="split__aside-top">
-          <span class="label label--zh">近作选</span>
-          <span class="split__title">2025 — 2026</span>
-        </div>
-        <div class="split__aside-bottom">RECENT WORKS</div>
-      </aside>
-      <div class="indexlist">
-        <a class="indexlist__row" href="/works/letter-south-france.html">
-          <span class="indexlist__num">№ 042</span>
-          <span class="indexlist__title">A Letter from the South of France</span>
-          <span class="indexlist__meta">Anouk Vermeer,佐藤健司</span>
-          <span class="indexlist__year">2026</span>
-        </a>
-        <a class="indexlist__row" href="/works/">
-          <span class="indexlist__num">№ 041</span>
-          <span class="indexlist__title">Notes on a Family Atelier</span>
-          <span class="indexlist__meta">Claire Mercier,Tomás Ribeiro</span>
-          <span class="indexlist__year">2025</span>
-        </a>
-        <a class="indexlist__row" href="/works/">
-          <span class="indexlist__num">№ 040</span>
-          <span class="indexlist__title">Coastline, Late Afternoon</span>
-          <span class="indexlist__meta">林思远,王嘉言</span>
-          <span class="indexlist__year">2025</span>
-        </a>
-        <a class="indexlist__row" href="/works/">
-          <span class="indexlist__num">№ 039</span>
-          <span class="indexlist__title">The Hotel in November</span>
-          <span class="indexlist__meta">Anouk Vermeer,Claire Mercier</span>
-          <span class="indexlist__year">2025</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- 区块 4 / 查看全部作品 -->
-  <a class="strip" href="/works/">
-    <span class="strip__text">查看档案中全部作品</span>
-    <span class="strip__arrow">→</span>
-  </a>
-
-  <!-- 区块 5 / 委托方 -->
-  <section class="section">
-    <div class="split">
-      <aside class="split__aside">
-        <div class="split__aside-top">
-          <span class="split__title">委托方</span>
-          <span class="label">PATRONS / By invitation only</span>
-        </div>
-        <div class="split__aside-bottom">2026 —</div>
-      </aside>
-      <div>
-        <div class="patrons__intro">
-          <p>委托方以邀请的方式加入。可由名册内的成员引荐,或由 Lumicome 直接邀请。</p>
-          <p>成为委托方之后,可直接联络名册中的任何一位创作者。双方的每一次往来,皆有记录留存,以备日后参照。</p>
-        </div>
-        <div class="patrons__apply">
-          <span class="patrons__apply-text">若希望被考虑加入</span>
-          <a class="patrons__apply-link" href="/patrons/apply.html">申请被考虑 →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 区块 6 / 手记选 -->
-  <section class="section section--cream">
-    <div class="split">
-      <aside class="split__aside">
-        <div class="split__aside-top">
-          <span class="label label--zh">手记选</span>
-          <span class="split__title">2026 —</span>
-        </div>
-        <div class="split__aside-bottom">WRITING</div>
-      </aside>
-      <a class="writing-preview" href="/writing/001-title-inflation.html">
-        <div class="writing-preview__eyebrow">№ 001  ·  二〇二六年四月</div>
-        <h3 class="writing-preview__title">关于品牌大使这个头衔,我们已经过度发行了。</h3>
-        <div class="writing-preview__byline">Kairos 来信  ·  阅读约 8 分钟</div>
-      </a>
-    </div>
-  </section>
-
-  <!-- 区块 7 / 页脚 -->
-  <footer class="footer">
-    <div class="footer__col">
-      <span class="footer__label footer__label--zh">事务所</span>
-      <span class="footer__line">巴黎 8 区</span>
-      <span class="footer__line"><a href="mailto:office@lumicome.studio">office@lumicome.studio</a></span>
-    </div>
-    <div class="footer__col">
-      <span class="footer__label footer__label--zh">名册</span>
-      <span class="footer__line">在册 七 位</span>
-      <span class="footer__line">以邀请相聚</span>
-    </div>
-    <div class="footer__col footer__col--right">
-      <span class="footer__brand">Lumicome</span>
-      <span class="footer__year">MMXXVI</span>
-    </div>
-  </footer>
-
-</div>
 </body>
 </html>

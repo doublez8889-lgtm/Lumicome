@@ -1,66 +1,66 @@
 # Lumicome
 
-施工版本 v1.1 · 静态 HTML/CSS 站点。
+中欧跨境 · 巴黎 / 上海。React + Babel (浏览器编译) 单页站。
 
 ## 目录结构
 
 ```
 /
-├── index.html                       首页(七个区块)
-├── css/style.css                    全站样式
-├── favicon.svg
-├── roster/index.html                名册(七位)
-├── works/
-│   ├── index.html                   作品档案
-│   └── letter-south-france.html     作品详情页模板
-├── writing/
-│   ├── index.html                   手记列表
-│   └── 001-title-inflation.html     第一篇手记
-├── patrons/
-│   ├── index.html                   委托方说明
-│   └── apply.html                   申请表
-├── office/index.html                事务所(联络 / 关于 / 法律链接)
-└── legal/                           隐私 / Cookie / 条款 / 致谢
+├── index.html              入口,加载 React/Babel CDN 与三份 JSX
+├── css/style.css           全站样式(基于 v7 design)
+├── js/
+│   ├── content.jsx         LUMI 数据(中英对照,各节内容)
+│   ├── sections.jsx        各页面组件(HomePage / ArchivePage / …)
+│   └── app.jsx             根组件 · 头部导航 · 语言切换 · 路由
+└── favicon.svg
 ```
 
-## 路径说明
+## 页面
 
-施工图原文使用路径 `/index` 指向”名册”页。在静态托管(Cloudflare Pages / Vercel / Framer)下,`/index`
-会与 `index.html` 解析冲突,因此本实现使用 `/roster/`。如需保留原路径,可在托管商处配置重写(rewrite)
-规则:`/index/ → /roster/index.html`。
+- **/** 首页 — Hero / Ticker / Stats / 四个 Module / 近作 / Partners / Contact
+- **/#archive** 视觉档案 — 带筛选,Hover 翻转展示完整 crew
+- **/#journal** 编辑室 — 文章列表,已发表的可展开
+- **/#collaborative** 协作院 — 8 城市 · 4 学科 · 准入表单(含 Charter 勾选)
+- **/#protocol** 协作公约 — 十节条款,从 SPOC 到 ICC 仲裁
+- **/#vision** 愿景 / 创始人手记 — 6 段 + 4 支柱 + 两个 CTA
+- **/#press** 媒体与背书 — 5 条引文 + 投资人垂询
+- **/#team** 团队 — 创始人 + 三个在招岗位 + 顾问
+- **/#legal** Mentions Légales · Privacy · Cookies
+- **/#contact** 联系 — 表单 + 两地地址 + 协作邮箱
 
 ## 本地预览
 
-```
+```sh
 python3 -m http.server 8000
-# 然后访问 http://localhost:8000
+# 浏览器打开 http://localhost:8000
 ```
 
-或任何其他静态文件服务器。
+## 关于 React/Babel 浏览器编译
 
-## 字体加载
+第一版用 `@babel/standalone` 在浏览器里现场编译 JSX,无需构建工具。
+代价是首屏会有数百 ms 的编译时间。**正式上线前需要预编译**(用 Vite / esbuild),
+把三份 .jsx 编译成单个 .js,删掉 Babel CDN。
 
-所有字体经 Google Fonts 加载。中文字体(Noto Serif SC / Noto Sans SC)体积较大,首次加载可能慢。
-正式上线前请按施工图 § 08 第一条提示,启用 subset 或自托管字体,首屏体积压到 1MB 以内。
+## 字体
 
-## 待你替换的内容
+经 Google Fonts 加载:
+- Cormorant Garamond / EB Garamond(英文衬线 · 斜体显示字)
+- Inter(英文无衬线 · 标签)
+- Noto Sans SC / Noto Serif SC(中文)
 
-- `writing/001-title-inflation.html` 文章正文(目前为占位)
-- `works/letter-south-france.html` 之外的其他作品详情页(目前只有一页模板,其余作品需复制此页)
-- `patrons/index.html` 第三段(权益与义务)
-- `legal/*.html` 四份法律文本(须经巴黎本地法务顾问起草或审核)
-- 名册中除 Anouk Vermeer 和 佐藤健司 之外的五个名字(根据真实成员替换)
-- 所有作品的代表图位 — 替换为真实图片
+主字体栈优先 Helvetica Neue / PingFang SC,Google Fonts 字体仅作回退与衬线斜体。
 
-## 上线前清单
+## 调色板
 
-参见施工图 § 07 节(共 25 项)。
+`body[data-palette="paper"]` 默认 — 暖白纸面感。
+可在 `body` 标签上换 `atelier`(深米色)或 `night`(深色)预览。
 
-## 颜色与字体规范
+## 上线前还要做
 
-- 主背景 `#FFFFFF` / 主文字 `#0A0A0A` / 唯一彩色区域 `#F4F2EE`
-- 中文衬线 Noto Serif SC / 英文衬线 EB Garamond
-- 中文无衬线 Noto Sans SC / 英文无衬线 Inter
-- 全站零圆角,零阴影,零渐变
-
-详见 `css/style.css` 顶部的 `:root` 变量与施工图 § 04。
+- 在 `js/content.jsx` 里逐字核对每条声明(Forbes / Printemps / SHIATZY CHEN /
+  两家公司主体的 SIREN / VAT / 18 位统一信用代码 …),用真实的内容替换占位
+- 预编译 JSX,删 Babel CDN
+- 替换 .plate 米色色块为真实图片(每张 < 200KB)
+- 法务页文本由巴黎本地法务顾问审一遍
+- favicon / og:image 用品牌资产替换
+- Newsletter / 表单的 submit 接到后端(目前只是本地 setSent(true))
