@@ -346,19 +346,6 @@ const ARCHIVE_DATA = {
       image: '/images/project-stills/cannes-brand-film.png',
       video: '/videos/cannes-brand-film.mp4',
     },
-    {
-      category: 'campaigns',
-      client: 'Maison Kitsuné',
-      title: { zh: '新店开幕项目', en: 'Grand Opening Event' },
-      sub: { zh: '深圳新店开幕', en: 'Shenzhen flagship store opening' },
-      year: '2026',
-      location: { zh: '深圳', en: 'Shenzhen' },
-      format: { zh: '嘉宾邀约、红毯与现场接待', en: 'Guest invitation, red carpet coordination, on-site reception' },
-      desc: {
-        zh: '围绕 Maison Kitsuné 深圳新店开幕提供活动传播与现场执行支持，覆盖嘉宾邀约、到场统筹、内容产出与后续复盘。',
-        en: 'Provided event communication and on-ground execution support for Maison Kitsuné Shenzhen opening, covering guest invitation, attendance coordination, content output, and post-event review.',
-      },
-    },
   ],
 };
 
@@ -374,7 +361,6 @@ const CLIENT_PRIORITY = new Map([
   ['MAOGEPING', 5],
   ['WU XUANYI', 5.5],
   ['Printemps', 6],
-  ['Maison Kitsuné', 7],
   ['SHIATZY CHEN', 8],
   ['Cannes', 9],
   ['Selected Work', 20],
